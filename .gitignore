@@ -1,0 +1,31 @@
+# ---- ST 官方库 / 内核文件（CubeMX 每次生成都重写，体积大）----
+/Drivers/
+
+# ---- Keil 编译产物 ----
+/MDK-ARM/the first LED/
+/MDK-ARM/build.log
+*.bak
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.tra
+*.sct
+*.map
+*.htm
+*.axf
+*.hex
+*.bin
+*.elf
+
+# ---- Keil 个人设置（窗口布局、断点，每人不同）----
+*.uvoptx
+*.uvguix*
+/MDK-ARM/DebugConfig/
+
+# ---- VS Code 本地文件 ----
+.vscode/*
+
+# ---- 嵌套的第二个工程 test1，单独建仓库 ----
+/test1/
